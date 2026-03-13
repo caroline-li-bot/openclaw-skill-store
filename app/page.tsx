@@ -150,12 +150,12 @@ export default function Home() {
           All skills are security-scanned and ready to use with one click.
         </p>
         <div className="flex gap-4 justify-center mt-8">
-          <button className="bg-primary-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors text-lg">
+          <Link href="/skills" className="bg-primary-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors text-lg">
             Browse Skills
-          </button>
-          <button className="bg-white text-gray-900 px-8 py-3 rounded-lg font-medium border border-gray-300 hover:bg-gray-50 transition-colors text-lg">
+          </Link>
+          <Link href="/submit" className="bg-white text-gray-900 px-8 py-3 rounded-lg font-medium border border-gray-300 hover:bg-gray-50 transition-colors text-lg">
             Submit Skill
-          </button>
+          </Link>
         </div>
         <div className="flex gap-8 justify-center mt-12 text-gray-600">
           <div className="text-center">
