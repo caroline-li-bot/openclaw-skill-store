@@ -4,11 +4,12 @@
   "framework": "nextjs",
   "installCommand": "npm install",
   "regions": ["sin1"],
-  "functions": {
-    "app/**/*.{js,ts,jsx,tsx}": {
-      "runtime": "@vercel/node@4"
-    }
+  "env": {
+    "NEXT_PUBLIC_API_URL": "https://jdsleruuwyinnkbzysyu.supabase.co/functions/v1",
+    "NEXT_PUBLIC_SUPABASE_URL": "https://jdsleruuwyinnkbzysyu.supabase.co",
+
   },
+
   "routes": [
     {
       "src": "/(.*)",
